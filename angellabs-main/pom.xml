@@ -13,8 +13,6 @@
   	<module>investerservices</module>
   	<module>entrepreneur</module>
   	<module>angellbas-entities</module>
-  	<module>social_networking_services</module>
-  	<module>social_network_services</module>
   </modules>
   <dependencies>
   
@@ -188,6 +186,16 @@
 			<artifactId>ehcache-core</artifactId>
 			<version>2.3.0</version>
 		</dependency>
+		
+		<!-- dependency for java mail by simple mail app -->
+		
+		<dependency>
+    <groupId>org.codemonkey.simplejavamail</groupId>
+    <artifactId>simple-java-mail</artifactId>
+    <version>2.1</version>
+       </dependency>
+       
+       <!-- ********************************************* -->
 		
 <dependency>
       <groupId>commons-logging</groupId>
