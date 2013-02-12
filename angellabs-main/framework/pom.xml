@@ -12,7 +12,7 @@
   <dependencies>
   
   <dependency>
-			<groupId>com.angellabs.www</groupId>
+			<groupId>co.angellabs</groupId>
 			<artifactId>angellabs-entities</artifactId>
 			<version>entities</version>
 		</dependency>
