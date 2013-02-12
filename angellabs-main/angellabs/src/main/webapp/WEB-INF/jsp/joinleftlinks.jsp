@@ -9,11 +9,8 @@
 <body>
 <!-- Join left Start Here -->
                               <div id="jpageleftcontent">
-<<<<<<< HEAD
-                              			<form class="joinform">
-=======
-                              			<form class="joinform" action="<c:url value="adduser.htm"/>" commandName="register">
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+                  			<form class="joinform" action="<c:url value="adduser.htm"/>" commandName="register">
+
                                   <table class="jointable">
                                         		  <th class="jointabletitle"><div align="left" class="style1">Create an Account</div></th>
                                                <tr>

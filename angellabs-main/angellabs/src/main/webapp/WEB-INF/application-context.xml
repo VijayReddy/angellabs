@@ -9,13 +9,11 @@
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd 
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
        http://www.springframework.org/schema/mvc 
-	   http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
-			
-<<<<<<< HEAD
-	 <!-- <context:component-scan base-package="com.sample.springexample" />  -->
-=======
+	   http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">			
+	
+
 	 <context:component-scan base-package="co.angellabs" /> 
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+
 	
  	<context:annotation-config /> 
  	
@@ -33,11 +31,7 @@ class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostP
 	<bean id="dataSource"
       class="org.springframework.jdbc.datasource.DriverManagerDataSource"
       p:driverClassName="com.mysql.jdbc.Driver"
-<<<<<<< HEAD
-      p:url="jdbc:mysql://localhost:3306/angellabs"
-=======
       p:url="jdbc:mysql://localhost:3306/angellabsdb"
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
       p:username="root"
       p:password="root"/>
       
@@ -45,11 +39,8 @@ class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostP
 		<property name="dataSource" ref="dataSource"/>
 		<property name="mappingResources">
 			<list>
-<<<<<<< HEAD
-								
-=======
 					<value>users.hbm.xml</value>			
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+
 			</list>
 		</property>
 		<property name="hibernateProperties">
@@ -68,11 +59,11 @@ class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostP
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
-<<<<<<< HEAD
+
 		
-=======
+
 	<bean id="userBasicServices" class="co.angellabs.profileservices.service.impl.UserBasicServicesImpl"/>
 <bean id="userBasicServiceDAO" class="co.angellabs.profileservices.dao.impl.UserBasicServicesDAOImpl"/>
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+
 	</beans>
 	

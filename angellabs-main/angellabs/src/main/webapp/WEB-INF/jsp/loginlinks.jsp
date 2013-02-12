@@ -11,12 +11,9 @@
 <body>
 <!-- Contentleft Start Here -->
                               <div id="enpageleftcontent">
-<<<<<<< HEAD
-                              			<form name='f1' action="<c:url value='j_spring_security_check' />"
-		method='POST'>
-=======
+
                               			<form name='f' action="<c:url value='/j_spring_security_check' />" method='POST'>
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+
                               			  <table class="enpagelogintable">
     <th class="enpagetabletitle"> <div align="left">Login</div></th>
   <tr>
@@ -27,11 +24,9 @@
   </tr>
   <tr class="userinput">
     <td><label>
-<<<<<<< HEAD
-      <input type="email" name="j_email" id="email" required placeholder="user@domain.com" class="forminput">
-=======
+
       <input type="email" name="j_username" id="username" required placeholder="user@domain.com" class="forminput">
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
+
     </label></td>
   </tr>
   <tr class="userinput">

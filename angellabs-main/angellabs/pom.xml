@@ -22,11 +22,7 @@
 	
   
   <dependencies>
-<<<<<<< HEAD
   		<dependency>
-=======
-  <dependency>
->>>>>>> d32352d3f6924e67044acffbb886b554265448d6
 			<groupId>co.angellabs</groupId>
 			<artifactId>framework</artifactId>
 			<version>framework</version>
