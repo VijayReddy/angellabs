@@ -5,18 +5,8 @@
     <artifactId>angellabs-main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>framework</artifactId>
-  <name>framework</name>
-  <description>framework</description>
-  <version>framework</version>
-  <dependencies>
-  
-  <dependency>
-			<groupId>co.angellabs</groupId>
-			<artifactId>angellabs-entities</artifactId>
-			<version>entities</version>
-		</dependency>
-  
-  </dependencies>
-  
+  <artifactId>angellabs-entities</artifactId>
+  <name>entities</name>
+  <description>entities</description>
+  <version>entities</version>
 </project>
