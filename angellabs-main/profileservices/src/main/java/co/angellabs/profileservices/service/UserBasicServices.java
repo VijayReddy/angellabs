@@ -6,5 +6,5 @@ public interface UserBasicServices  {
 
 	public User validateUser(User user);
 	
-	public User register( User user);
+	public boolean register( User user);
 }

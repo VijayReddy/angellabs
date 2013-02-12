@@ -10,8 +10,8 @@ public class User {
 	
 	private String password;
 	
+	private byte enabled;
 	
-
 	public long getUserId() {
 		return userId;
 	}
@@ -19,7 +19,6 @@ public class User {
 	public void setUserId(long userId) {
 		this.userId = userId;
 	}
-
 	public String getName() {
 		return name;
 	}
@@ -27,7 +26,6 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	public String getEmail() {
 		return email;
 	}
@@ -35,7 +33,6 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 	public String getPassword() {
 		return password;
 	}
@@ -89,6 +86,14 @@ public class User {
 	public String toString() {
 		return "User [userId=" + userId + ", name=" + name + ", email=" + email
 				+ ", password=" + password + "]";
+	}
+
+	public byte getEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(byte enabled) {
+		this.enabled = enabled;
 	}
 	
 	

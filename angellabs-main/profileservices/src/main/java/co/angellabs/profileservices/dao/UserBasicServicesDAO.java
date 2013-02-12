@@ -4,6 +4,6 @@ import co.angellabs.entities.dto.User;
 
 public interface UserBasicServicesDAO {
 
-	public void save(User user);
+	public boolean saveUser(User user);
 	public User validateUserLogin(User user);
 }
